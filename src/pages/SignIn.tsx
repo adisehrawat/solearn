@@ -174,24 +174,9 @@ export function SignIn() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  {/* <Button
-                    onClick={handleConnect}
-                    disabled={isLoading}
-                    className="w-full"
-                    size="lg"
-                  >
-                    {isLoading ? (
-                      <>
-                        <LoadingSpinner size="sm" className="mr-2" />
-                        Connecting...
-                      </>
-                    ) : (
-                      <>
-                        <WalletButton />
-                      </>
-                    )}
-                  </Button> */}
-                  <WalletButton />
+                  <div className="wallet-button-container">
+                    <WalletButton />
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>

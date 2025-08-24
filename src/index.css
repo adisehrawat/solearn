@@ -137,6 +137,41 @@
 
 .wallet-adapter-button-trigger {
     height: auto !important;
-    @apply !border !bg-background !shadow-sm hover:!bg-accent !text-accent-foreground hover:!text-accent-foreground dark:!bg-input/30 !border-input/10 dark:!border-input dark:hover:!bg-input/50;
-    @apply !px-2 !py-[6px] !rounded-md !text-sm !font-semibold !shadow-sm !transition-all;
+    @apply !border !bg-gray-900 !shadow-lg hover:!bg-gray-800 !text-white hover:!text-white !border-gray-700 hover:!border-gray-600;
+    @apply !px-6 !py-3 !rounded-lg !text-base !font-semibold !shadow-lg !transition-all !duration-200 !transform hover:!scale-105;
+    @apply !min-w-[200px] !mx-auto !block;
   }
+
+/* Dark theme wallet button container */
+.wallet-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Enhanced wallet button styles for dark theme */
+.wallet-adapter-button {
+  @apply !rounded-lg !font-semibold !transition-all !duration-200 !bg-gray-900 !text-white !border-gray-700;
+}
+
+.wallet-adapter-button:hover {
+  @apply !shadow-xl !transform !scale-105 !bg-gray-800 !border-gray-600;
+}
+
+/* Wallet button modal styling */
+.wallet-adapter-modal {
+  @apply !bg-gray-900 !border-gray-700;
+}
+
+.wallet-adapter-modal-title {
+  @apply !text-white;
+}
+
+.wallet-adapter-modal-list {
+  @apply !bg-gray-800;
+}
+
+.wallet-adapter-modal-list-item {
+  @apply !bg-gray-800 !text-white hover:!bg-gray-700 !border-gray-600;
+}
