@@ -5,7 +5,7 @@
  * IDL can be found at `target/idl/solearn.json`.
  */
 export type Solearn = {
-  "address": "3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j",
+  "address": "4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc",
   "metadata": {
     "name": "solearn",
     "version": "0.1.0",
@@ -999,113 +999,78 @@ export type Solearn = {
   "errors": [
     {
       "code": 6000,
-      "name": "applicationAlreadyApproved",
-      "msg": "Application is already approved"
+      "name": "projectAlreadyClosed",
+      "msg": "Project is already closed"
     },
     {
       "code": 6001,
-      "name": "applicationAlreadyRejected",
-      "msg": "Application is already rejected"
+      "name": "cannotUpdateWithApplications",
+      "msg": "Cannot update project that has applications"
     },
     {
       "code": 6002,
-      "name": "applicationNotPending",
-      "msg": "Application is not pending"
+      "name": "cannotDeleteWithApplications",
+      "msg": "Cannot delete project that has applications"
     },
     {
       "code": 6003,
-      "name": "cannotApproveNonPending",
-      "msg": "Cannot approve application that is not pending"
+      "name": "projectDeadlinePassed",
+      "msg": "Project deadline has passed"
     },
     {
       "code": 6004,
-      "name": "cannotRejectNonPending",
-      "msg": "Cannot reject application that is not pending"
+      "name": "projectNotLive",
+      "msg": "Project is not live"
     },
     {
       "code": 6005,
-      "name": "applicationDeadlinePassed",
-      "msg": "Application deadline has passed"
+      "name": "projectAlreadyRewarded",
+      "msg": "Project has already been rewarded"
     },
     {
       "code": 6006,
-      "name": "applicationNotFound",
-      "msg": "Application is not found"
+      "name": "invalidRewardAmount",
+      "msg": "Invalid reward amount"
     },
     {
       "code": 6007,
-      "name": "invalidApplicationStatus",
-      "msg": "Invalid application status"
+      "name": "invalidDeadline",
+      "msg": "Invalid deadline"
     },
     {
       "code": 6008,
-      "name": "userAlreadyApplied",
-      "msg": "User has already applied to this bounty"
+      "name": "insufficientSolBalance",
+      "msg": "Insufficient SOL balance for reward"
     },
     {
       "code": 6009,
-      "name": "bountyNotAcceptingApplications",
-      "msg": "Bounty is not accepting applications"
+      "name": "invalidProjectTitle",
+      "msg": "Project title is empty"
     },
     {
       "code": 6010,
-      "name": "insufficientApplicationFee",
-      "msg": "Application fee is insufficient"
+      "name": "invalidProjectDescription",
+      "msg": "Project description is empty"
     },
     {
       "code": 6011,
-      "name": "applicationDescriptionTooLong",
-      "msg": "Application description is too long"
+      "name": "projectNotAcceptingApplications",
+      "msg": "Project is not accepting applications"
     },
     {
       "code": 6012,
-      "name": "invalidApplicationLink",
-      "msg": "Application link is invalid"
+      "name": "userAlreadyApplied",
+      "msg": "User has already applied to this project"
     },
     {
       "code": 6013,
-      "name": "workAlreadySubmitted",
-      "msg": "Work is already submitted"
+      "name": "projectNotFound",
+      "msg": "Project not found"
     },
     {
       "code": 6014,
-      "name": "workNotSubmitted",
-      "msg": "Work is not submitted"
-    },
-    {
-      "code": 6015,
-      "name": "workAlreadyApproved",
-      "msg": "Work is already approved"
-    },
-    {
-      "code": 6016,
-      "name": "workAlreadyRejected",
-      "msg": "Work is already rejected"
-    },
-    {
-      "code": 6017,
-      "name": "workNotApproved",
-      "msg": "Work is not approved"
-    },
-    {
-      "code": 6018,
-      "name": "cannotSubmitWorkForNonApprovedApplication",
-      "msg": "Cannot submit work for non-approved application"
-    },
-    {
-      "code": 6019,
-      "name": "workDescriptionTooLong",
-      "msg": "Work description is too long"
-    },
-    {
-      "code": 6020,
-      "name": "invalidWorkLink",
-      "msg": "Work link is invalid"
-    },
-    {
-      "code": 6021,
-      "name": "invalidAdditionalFilesLink",
-      "msg": "Additional files link is invalid"
+      "name": "invalidProjectStatus",
+      "msg": "Invalid project status"
     }
   ],
   "types": [

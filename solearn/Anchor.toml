@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-solearn = "3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j"
+solearn = "4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc"
 
 [registry]
 url = "https://api.apr.dev"

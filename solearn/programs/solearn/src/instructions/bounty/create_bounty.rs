@@ -1,4 +1,4 @@
-use anchor_lang::{prelude::*, solana_program::native_token::LAMPORTS_PER_SOL};
+use anchor_lang::{prelude::*};
 use crate::states::{Bounty, Client};
 use crate::errors::BountyError;
 
@@ -16,7 +16,7 @@ pub fn create_bounty(
 
     // Validate reward amount
     require!(reward > 0, BountyError::InvalidRewardAmount);
-    let reward_lamports = reward * LAMPORTS_PER_SOL;
+    let reward_lamports = reward * 1_000_000_000;
 
     // Check if authority has sufficient SOL
     require!(

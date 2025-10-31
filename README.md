@@ -2,7 +2,7 @@
 
 **A decentralized bounty platform built on Solana blockchain connecting clients with skilled developers for project completion.**
 
-[![Solana](https://img.shields.io/badge/Solana-3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j-blue?style=flat-square)](https://solana.com/)
+[![Solana](https://img.shields.io/badge/Solana-4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc-blue?style=flat-square)](https://solana.com/)
 [![Anchor](https://img.shields.io/badge/Anchor-0.31.1-orange?style=flat-square)](https://www.anchor-lang.com/)
 [![React](https://img.shields.io/badge/React-19-blue?style=flat-square)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?style=flat-square)](https://www.typescriptlang.org/)
@@ -28,7 +28,7 @@ SolEarn is a full-stack Web3 application that revolutionizes how clients and dev
 - **Mobile-First**: Optimized for all device sizes
 
 ### 🛡️ **Security & Reliability**
-- **Program ID**: `3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j`
+- **Program ID**: `4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc`
 - **Anchor Framework**: Industry-standard Solana development framework
 - **Type Safety**: Full TypeScript implementation
 - **Error Handling**: Comprehensive error management and user feedback
@@ -139,7 +139,7 @@ The application supports multiple Solana networks:
 ```bash
 # Frontend
 VITE_SOLANA_NETWORK=devnet
-VITE_PROGRAM_ID=3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j
+VITE_PROGRAM_ID=4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc
 
 # Program
 ANCHOR_PROVIDER_URL=https://api.devnet.solana.com
@@ -207,7 +207,7 @@ anchor deploy --provider.cluster mainnet
 
 ## 📊 Program Statistics
 
-- **Program ID**: `3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j`
+- **Program ID**: `4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc`
 - **Total Instructions**: 15+
 - **Account Types**: 4 (User, Client, Bounty, Submission)
 - **Test Coverage**: 100% (17/17 tests passing)

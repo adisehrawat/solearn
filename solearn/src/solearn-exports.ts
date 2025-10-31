@@ -15,9 +15,12 @@ export function getSolmineaProgramId(cluster: Cluster) {
   switch (cluster) {
     case 'devnet':
     case 'testnet':
-      return new PublicKey('3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j')
+      return new PublicKey('4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc')
     case 'mainnet-beta':
     default:
       return SOLEARN_PROGRAM_ID
   }
 }
+
+
+

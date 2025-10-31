@@ -4,7 +4,7 @@ import { SolEarnAnchorClient, BountyAccount, SubmissionAccount } from './anchor-
 import { UserAccount, ClientAccount, FrontendBountyAccount } from '@/types/program';
 import { BN } from '@coral-xyz/anchor';
 
-export const PROGRAM_ID = new PublicKey('3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j');
+export const PROGRAM_ID = new PublicKey('4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc');
 
 // Real Solana program interface
 export class SolEarnProgram {

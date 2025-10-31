@@ -59,9 +59,9 @@ export const createConnection = (network?: NetworkType): Connection => {
 // Program IDs for different networks - DEVNET FOCUSED
 export const PROGRAM_IDS: Record<NetworkType, string> = {
   'mainnet-beta': '', // Disabled - not deploying to mainnet
-  devnet: '3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j', // Main devnet program ID
+  devnet: '4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc', // Main devnet program ID
   testnet: '', // Disabled - not deploying to testnet
-  localnet: '3J4pJELCCwVFjD58iBUUa46pmrZNXwkWGwQkYm8pAc4j', // Local development only
+  localnet: '4a8Lgwhx7oQZUEUHq2m3B5yZJkZXrzLthYRjn3TCRCfc', // Local development only
 };
 
 export const getCurrentProgramId = (): string => {

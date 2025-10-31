@@ -13,7 +13,7 @@ pub fn select_submission(ctx: Context<SelectSubmission>) -> Result<()> {
         SubmissionError::InvalidSubmission
     );
 
-    let reward_lamports = bounty.reward * anchor_lang::solana_program::native_token::LAMPORTS_PER_SOL;
+    let reward_lamports = bounty.reward * 1_000_000_000;
     
     // Calculate rent-exempt minimum for the escrow account
     let rent = &Rent::get()?;
